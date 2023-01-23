@@ -1,0 +1,115 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    background-image: url(../img/pexels-lucie-liz-3193647.jpg);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 40px 0px 32px 0px;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.wrapper {
+    display: flex;
+    flex-flow: column;
+    width: 75%;
+    padding: 17px;
+    background: rgba(250, 235, 215, 0.89);
+    gap: 24px;
+}
+
+.content {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1 auto;
+    margin-top: 32px;
+}
+
+.title {
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(27, 27, 27);
+    position: fixed;
+    top: 0;
+}
+
+.food-img {
+    border-radius: 30px;
+    border: antiquewhite 3px solid;
+}
+
+.food-img-container, .ingredients, .procedures {
+    display: flex;
+    flex-flow: column;
+    padding: 16px 24px 16px 24px;
+    background-color: white;
+    border-radius: 25px;
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+.footer {
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(27, 27, 27);
+    padding: 8px;
+    position: fixed;
+    bottom: 0;
+}
+
+button {
+    padding: 5px 16px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.ingredients {
+    width: 100%;
+}
+
+ol > * {
+    display: flex;
+    gap: 8px;
+    padding: 16px;
+    flex-flow: column nowrap;
+    background-color: antiquewhite;
+    border-radius: 10px;
+}
+
+ol {
+    display: flex;
+    padding: 0;
+    flex-flow: column nowrap;
+    gap: 32px;
+}
+
+ul {
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 8px;
+    background-color: antiquewhite;
+    padding: 24px;
+    list-style: none;
+    border-radius: 25px;
+    width: 100%;
+}
+
