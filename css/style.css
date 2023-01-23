@@ -1,0 +1,85 @@
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    background-image: url(../img/pexels-lucie-liz-3193647.jpg);
+    background-position: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    border: green 2px solid;
+    height: 100vh;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 150px;
+    justify-content: center;
+}
+
+.title {
+    display: flex;
+    padding: 16px;
+    background-color: rgba(0, 0, 0, 0.8);
+    box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 0.404);
+    border-radius: 15px;
+}
+
+h1 {
+    padding: 16px;
+}
+
+a {
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+.recipe-list {
+    width: 50%;
+}
+
+ul {
+    display: flex;
+    padding: 0;
+}
+
+li {
+    flex: 1 1 auto;
+    list-style: none;
+    text-align: center;
+}
+
+li > * {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 16px;
+    border-radius: 10px;
+    box-shadow: 1px 1px 0px 1px rgba(0, 0, 0, 0.404);
+}
+
+li:hover {
+    transition: transform 0.5s ease-in-out;
+    transform: scale(1.1);
+    
+}
+
+.footer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(44, 44, 44);
+    position: fixed;
+    bottom: 0;
+}
+.footer > * {
+    font-size: 0.8rem;
+    color: rgb(255, 255, 255);
+    padding: 0px 16px;
+}
